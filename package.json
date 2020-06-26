@@ -4,6 +4,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node ./bin/www",
+    "dev": "DEBUG=authenticate-with-passport:* nodemon ./bin/www",
+    "dev-windows": "nodemon ./bin/www"
   },
   "author": "Frank Atukunda",
   "license": "MIT",
