@@ -7,7 +7,7 @@ const mongoose = require('mongoose')
 // })
 
 mongoose
-  .connect('mongodb+srv://mayank:residency18@cluster0-pu5tf.azure.mongodb.net/cmsusermgmt', {useNewUrlParser: true})
+  .connect('mongodb+srv://mayank:residency18@cluster0-pu5tf.azure.mongodb.net/usermgmt', {useNewUrlParser: true})
   .then(x => {
     console.log(`Connected to Mongo! Database name: "${x.connections[0].name}"`)
   })
